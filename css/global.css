@@ -1,0 +1,115 @@
+/* #F2F7F2 mint cream
+#F2F7F2  spanish viridian (green)
+#39393A onyx
+#1E1E24 raisin black
+#FAF33E lemon yellow 
+ea8c55 raw sienna*/
+
+.bg-cream{
+    background-color: #F2F7F2;
+}
+.bg-orange{
+    background-color: #EA8C55;
+}
+.bg-grey{
+    background-color: #39393A;
+}
+.bg-black{
+    background-color: #1E1E24;
+}
+.bg-yellow{
+    background-color:#FAF33E;
+}
+
+.txt-cream{
+    color: #F2F7F2;
+}
+.txt-orange{
+    color:background-color: #EA8C55;
+}
+.txt-grey{
+    color:#39393A;
+}
+.txt-black{
+    color:#1E1E24;
+}
+.txt-yellow{
+    color:#FAF33E;
+}
+.z30{
+    z-index:30;
+}
+.z20{
+    z-index:20;
+}
+.z10{
+    z-index:10;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    width:100%;
+    background-color: pink; 
+    min-height:;
+
+
+}
+.headerImage{
+    max-width:100%;
+    height:auto;
+}
+
+@media screen and (max-width: 786px){ 
+    .headerText{
+        top:10px;
+        left:10px; 
+    }
+
+    .square{
+        height:30vw;
+        width: 30vw;
+        color:white;
+    }
+    
+    .squareText{
+        font-size:1.5vw;
+        text-align:center;
+    }
+    
+
+}
+
+
+.headerText{
+    top:7vh;
+    left:7vw;
+}
+footer{
+    width:100%;
+    min-height:10%;
+    
+
+
+}
+main{
+min-height:60%;
+
+}
+.square{
+    height:20vw;
+    width: 20vw;
+}
+
+.squareText{
+    font-size:1.5vw;
+    text-align:center;
+}
+
