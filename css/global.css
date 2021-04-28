@@ -45,6 +45,9 @@ ea8c55 raw sienna*/
 .z10{
     z-index:10;
 }
+.float{
+    float:left;
+}
 
 body{
     margin:0px;
@@ -76,7 +79,6 @@ header{
     .square{
         height:30vw;
         width: 30vw;
-        color:white;
     }
     
     .squareText{
@@ -107,6 +109,8 @@ min-height:60%;
     height:20vw;
     width: 20vw;
 }
+
+
 
 .squareText{
     font-size:1.5vw;
